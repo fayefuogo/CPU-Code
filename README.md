@@ -4,12 +4,11 @@ Simple8 is a simple, non-pipelined 8-bit CPU built in **VHDL** with a **custom i
 This project demonstrates the fundamental components of a CPU, from the arithmetic logic unit (ALU) to control logic, registers, and memory.
 
 ## Features
-- **8-bit datapath** with custom ISA
-- **Non-pipelined** architecture for simplicity and clarity
+- 8-bit datapath with custom ISA
+- Non-pipelined architecture for simplicity and clarity
 - Fully modular design (each CPU component in its own VHDL file)
-- Accompanied by **testbenches** for each major component
+- Accompanied by testbenches for each major component
 - Synthesizable on common FPGA boards
-- Educational focus — great for learning CPU architecture and VHDL
 
 ## Project Structure
 | File | Description |
