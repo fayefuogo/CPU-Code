@@ -33,7 +33,7 @@ The CPU follows a **fetch–decode–execute** cycle:
 2. **Decode**: Control Unit interprets the instruction and sets control signals.
 3. **Execute**: ALU performs computation or memory access as needed.
 
-**Instruction Set Example**:
+**Instruction Set**:
 | Opcode | Mnemonic | Syntax       | Description                      |
 |--------|----------|--------------|-----------------------------------|
 | 0000   | LDA      | LDA [addr]   | Load A from memory at addr.       |
