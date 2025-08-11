@@ -34,15 +34,15 @@ The CPU follows a **fetch–decode–execute** cycle:
 3. **Execute**: ALU performs computation or memory access as needed.
 
 **Instruction Set Example**:
-Opcode	Mnemonic	Syntax	Description
-0000	LDA	LDA [addr]	Load A from memory at addr.
-0001	STA	STA [addr]	Store A to memory at addr.
-0010	ADD	ADD [addr]	A ← A + M[addr].
-0011	SUB	SUB [addr]	A ← A − M[addr].
-0100	JMP	JMP [addr]	PC ← addr.
-0101	OUT	OUT	Drive A to output port.
-0110	HLT	HLT	Halt the CPU.
-(See [ISA Documentation](#) for full list.)
+| Opcode | Mnemonic | Syntax       | Description                      |
+|--------|----------|--------------|-----------------------------------|
+| 0000   | LDA      | LDA [addr]   | Load A from memory at addr.       |
+| 0001   | STA      | STA [addr]   | Store A to memory at addr.        |
+| 0010   | ADD      | ADD [addr]   | A ← A + M[addr].                   |
+| 0011   | SUB      | SUB [addr]   | A ← A − M[addr].                   |
+| 0100   | JMP      | JMP [addr]   | PC ← addr.                         |
+| 0101   | OUT      | OUT          | Drive A to output port.            |
+| 0110   | HLT      | HLT          | Halt the CPU.                      |
 
 ## Testing
 All major components have dedicated **testbenches** for simulation.
